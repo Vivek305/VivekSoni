@@ -31,7 +31,7 @@ nav i {
 	top: 5px;
 }
 main {
-	background: url(../../static/img/bg.png) repeat;
+	background: url(../img) repeat;
 	padding-left: 190px;
 }
 ul.side-nav {
@@ -101,7 +101,7 @@ h3 {
 	height: 100vh;
 }
 #intro.section {
-	background: url(../../static/img/andrew-borstein-2a.jpg) no-repeat top center/cover;
+	background: url(../img/background1jpg.jpg) no-repeat top center/cover;
 	position: relative;
 }
 #intro.section .container {
@@ -120,7 +120,7 @@ h3 {
 #intro.section .underline {
 	border-bottom: 5px solid #009688;
 }
-#intro.section .teal {
+#intro.section .tea {
 	padding: 0 10px;
 }
 .overlay {
@@ -271,12 +271,10 @@ small { display: none;}
 .grey-text {
 	color: #666 !important;
 }
-.teal-text {
+.tea-text {
 	color: #008073 !important
 }
-.teal {
-	background-color: #008073 !important
-}
+
 @media (min-width: 1200px) {
 	#experience .container {
 		width: 860px
